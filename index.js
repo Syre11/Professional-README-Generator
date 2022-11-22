@@ -14,7 +14,7 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'Please describe your project.',
+    message: 'Please describe your project in detail. What was your motivation? Does it solve a problem? If so, what? What did you learn?',
     name: 'description',
   },
   {
@@ -24,7 +24,7 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'How do you use the prject?',
+    message: 'How do you use the project?',
     name: 'usage',
   },
   {
@@ -49,14 +49,9 @@ const questions = [
     name: 'username',
   },
   {
-    type: 'input',
+    type: 'email',
     message: 'What is your email address?',
     name: 'email',
-  },
-  {
-    type: 'input',
-    message: 'Re-enter title to confirm:',
-    name: 'confirm',
   }
 ]
 
