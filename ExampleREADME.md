@@ -33,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 MIT License: [https://mit-license.org/](https://mit-license.org/)
 
-MIT License
+    MIT License
 
     Copyright (c) 2022 username
     
