@@ -50,7 +50,8 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license, username) {
   if (license === 'GNU AGPLv3') {
-    return `Copyright (C) 2022 ${username}
+    return `
+    Copyright (C) 2022 ${username}
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
@@ -65,7 +66,8 @@ function renderLicenseSection(license, username) {
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see [https://www.gnu.org/licenses/0](https://www.gnu.org/licenses/0).`;
   } else if (license === 'GNU GPLv3') {
-    return `Copyright (C) 2022  ${username}
+    return `
+    Copyright (C) 2022  ${username}
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -80,7 +82,8 @@ function renderLicenseSection(license, username) {
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>`;
   } else if (license === 'GNU LGPLv3') {
-    return `GNU LESSER GENERAL PUBLIC LICENSE
+    return `
+    GNU LESSER GENERAL PUBLIC LICENSE
     Version 3, 29 June 2007
     
     Copyright © 2007 Free Software Foundation, Inc. <[>https://fsf.org/>
@@ -305,7 +308,8 @@ function renderLicenseSection(license, username) {
     See the License for the specific language governing permissions and
     limitations under the License.`;
   } else if (license === 'MIT License') {
-    return `MIT License
+    return `
+    MIT License
 
     Copyright (c) 2022 ${username}
     
@@ -327,7 +331,8 @@ function renderLicenseSection(license, username) {
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.`;
   } else if (license === 'Boost Software License 1.0') {
-    return `Boost Software License - Version 1.0 - August 17th, 2003
+    return `
+    Boost Software License - Version 1.0 - August 17th, 2003
 
     Permission is hereby granted, free of charge, to any person or organization
     obtaining a copy of the software and accompanying documentation covered by
@@ -351,7 +356,8 @@ function renderLicenseSection(license, username) {
     ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
     DEALINGS IN THE SOFTWARE.`;
   } else if (license === 'The Unlicense') {
-    return `This is free and unencumbered software released into the public domain.
+    return `
+    This is free and unencumbered software released into the public domain.
 
     Anyone is free to copy, modify, publish, use, compile, sell, or
     distribute this software, either in source code form or as a compiled
